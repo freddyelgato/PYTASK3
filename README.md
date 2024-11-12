@@ -12,13 +12,13 @@ This project is a simple "Hello World" web application created in Python and dep
    git clone https://github.com/freddyelgato/PYTASK3.git
 2. **Run the application in Docker**:
    ```bash
-   docker run -d -p 8080:8080 --name PYTASK3 2424833f/pytask3
+   docker run -d -p 5001:5001 --name PYTASK3 2424833f/pytask3
  - **d**: Runs the container in detached mode.
- - **p8080**: Maps container port 8080 to your machine's port 8080.
+ - **p8080**: Maps container port 5001 to your machine's port 5001.
 
 3. **Access the application in your browser to see the "Hello World" message**:
    ```bash
-   http://localhost:8080
+   http://localhost:5001
    
 ## Useful Commands
 - View containers: `docker ps`.
